@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="1" failures="0" errors="0" time="1.262">
+  <testsuite name="resetPasswordLinkSent page" errors="0" failures="0" skipped="0" timestamp="2022-10-16T15:21:44" time="0.691" tests="1">
+    <testcase classname="resetPasswordLinkSent page Should render resetPasswordLinkSent successfully" name="resetPasswordLinkSent page Should render resetPasswordLinkSent successfully" time="0.047">
+    </testcase>
+  </testsuite>
+</testsuites>
