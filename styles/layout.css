@@ -3,7 +3,7 @@
 }
 
 .app_content {
-  height: calc(100vh - 128px) !important;
+  min-height: calc(100vh - 128px) !important;
 }
 
 .app_footer {
@@ -11,16 +11,22 @@
 }
 
 .ant-layout-header {
-  background: #7dbcea !important;
+  background: #ffffff !important;
 }
 .ant-layout .ant-layout-sider-children {
   background: #3ba0e9 !important;
   padding: 30px 16px !important;
 }
 .ant-layout .ant-layout-content {
-  background: grey !important;
-  padding: 16px 50px !important;
+  background: rgb(230, 230, 230) !important;
+  /* padding: 16px 50px !important; */
 }
 .ant-layout .ant-layout-footer {
-  background: #7dbcea !important;
+  background: #ffffff !important;
+}
+.ant-menu-inline {
+  border-inline-end: none !important;
+}
+.ant-menu-item-group li{
+  width: 100% !important;
 }

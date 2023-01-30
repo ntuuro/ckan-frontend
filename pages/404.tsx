@@ -23,7 +23,7 @@ const Custom404: NextPage = () => {
           <h1 className="mt-5 self-center text-green">Oops! Page not found</h1>
           <p className="mt-5 italic font-light">{`Sorry we can't find the page you're looking for. Please reload your page`}</p>
           <button
-            onClick={() => router.push(routes.login.url)}
+            // onClick={() => router.push(routes.login.url)}
             className="self-center text-white text-xs font-black rounded max-w-fit px-20 py-3 bg-[#00A082] mt-5 flex justify-between items-center gap-4">
             {`Back to Home`} <AiOutlineArrowRight />
           </button>

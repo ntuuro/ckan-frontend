@@ -1,10 +1,14 @@
 export const routes = {
-  login: {
-    name: 'Login',
-    url: '/',
-  },
+  // login: {
+  //   name: 'Login',
+  //   url: '/',
+  // },
   landing: {
     name: 'Landing',
-    url: '/landing',
+    url: '/',
   },
+  datasets: {
+    name:'Datasets',
+    url:'/datasets',
+  }
 }

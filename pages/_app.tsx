@@ -35,7 +35,7 @@ const App = ({ Component, pageProps }: any) => {
   return (
     <>
       <Head>
-        <title>Awesome App</title>
+        <title>Data.gov.rw</title>
         <link rel="icon" href="/logo.svg" />
       </Head>
       <Provider store={store}>

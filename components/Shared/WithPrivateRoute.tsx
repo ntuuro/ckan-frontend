@@ -22,13 +22,13 @@ const WithPrivateRoute = (Wrapped: any) => {
     if (!token && !localToken) {
       dispatch(removeCredentials())
       dispatch(api.util.resetApiState())
-      router.replace(routes.login.url)
+      // router.replace(routes.login.url)
       return null
     }
     if ((token && !isValidToken(token)) || (localToken && !isValidToken(localToken))) {
       dispatch(removeCredentials())
       dispatch(api.util.resetApiState())
-      router.replace(routes.login.url)
+      // router.replace(routes.login.url)
       return null
     }
     return <Wrapped {...props} />

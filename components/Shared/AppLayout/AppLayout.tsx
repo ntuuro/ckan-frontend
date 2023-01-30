@@ -1,6 +1,5 @@
 import React, { FC } from 'react'
 import AppHeader from '../AppHeader'
-import AppSidebar from '../AppSidebar'
 import { Layout } from 'antd'
 import AppFooter from '../AppFooter'
 
@@ -13,7 +12,6 @@ type AppLayout = {
 const AppLayout: FC<AppLayout> = ({ children }) => {
   return (
     <Layout>
-      <AppSidebar />
       <Layout>
         <AppHeader />
         <Content className="app_content">{children}</Content>

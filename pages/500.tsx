@@ -22,7 +22,7 @@ const Custom500: NextPage = () => {
           <h1 className="mt-5 self-center text-green">Oops! There was an error</h1>
           <p className="mt-5 italic font-light">{`Sorry something went wrong. Please report this error`}</p>
           <button
-            onClick={() => router.push(routes.login.url)}
+            // onClick={() => router.push(routes.login.url)}
             className="self-center text-white text-xs font-black rounded max-w-fit px-20 py-3 bg-[#00A082] mt-5 flex justify-between items-center gap-4">
             {`Try again`} <IoMdRefresh />
           </button>
